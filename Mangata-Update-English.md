@@ -1,0 +1,146 @@
+<h1 align="center"> Mangata AVS
+
+> 01.03.2024 Update
+
+# Update Steps
+
+> Let's start the update process. 
+
+> Before you start, the total amount of rETH and sETH you stake must be higher OR equal to 1ETH.
+
+> [CLICK HERE](https://goerli.eigenlayer.xyz/) It should be higher or equal to 1ETH as shown in the picture below.
+![picture](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/62f8e068-a665-489c-9c4f-22ed776604c7)
+
+```
+cd avs-operator-setup
+```
+
+```
+docker compose down
+```
+
+> You need to back up your .env file. if you want, you can do nano .env and copy everything on the screen directly.
+
+```
+git reset --hard
+```
+```
+git pull
+```
+
+```
+docker compose pull
+```
+```
+docker compose down
+```
+
+> We have updated our node files with the codes we previously wrote. 
+> So we need to edit the updated env file.
+
+```
+nano .env
+```
+
+![picture](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/08656c4e-c446-4d38-a92a-f892e223549f)
+
+> Edit the double fancy brackets in the picture based on the .env file we backed up. 
+>**Do not touch anything else.** 
+
+>***DELETE THE FANCY BRACKETS TOO!!!***
+
+> If your env file is not like the picture, write the following codes.
+
+```
+rm -rf .env
+```
+
+```
+nano .env
+```
+
+> Copy the code below and open it in a notepad **delete the fancy brackets** and write the required values.
+
+> Then paste it into the .env file we just opened as a blank page and paste it with right click.
+
+```
+MAIN_SERVICE_IMAGE=mangatasolutions/avs-finalizer:80ac399c2c2f103dd8de1be62c114d5090cd11cd
+MAIN_SERVICE_NAME=avs-finalizer-node
+
+#COLORBT_SHOW_HIDDEN=1
+#RUST_BACKTRACE=full
+
+# Goerli contracts deployment
+AVS_REGISTRY_COORDINATOR_ADDR=0x5620cDb94BaAaD10c20483bd8705DA711b2Bc0a3
+
+# Finalizer Service Manager RPC
+AVS_RPC_URL=https://avs-aggregator-testnet.mangata.online/
+# register with AVS when the node starts
+OPT_IN_AT_STARTUP=true
+
+RUST_LOG=avs=info
+
+###############################################################################
+####### TODO: Operators please update below values for your node ##############
+###############################################################################
+
+# TODO: Operators need to update this to provide connection to ETH & network nodes
+CHAIN_ID=5
+ETH_RPC_URL={{RPC url https://goerli.infura.io/v3/ bla bla bla}}
+ETH_WS_URL= {{Websocket url wss://goerli.infura.io/ws/v3/ bla bla bla}}
+SUBSTRATE_RPC_URL=wss://collator-01-ws-rollup-testnet.mangata.online:443
+
+# TODO: Operators need to update this to their own keys, either use files or encoded JSON
+# this is where your keys are stored on local storage
+ECDSA_KEY_FILE_HOST=/root/.eigenlayer/operator_keys/{{eigenlayer_wallet_name}}.ecdsa.key.json
+BLS_KEY_FILE_HOST=/root/.eigenlayer/operator_keys/{{eigenlayer_wallet_name}}.bls.key.json
+
+# this is where the node binary finds the keys in the docker container
+ECDSA_KEY_FILE=/app/operator_keys/ecdsa_key.json
+BLS_KEY_FILE=/app/operator_keys/bls_key.json
+
+# it is possible to pass the encoded json key directly with these env flags
+# comment above both ECDSA_KEY_FILE & BLS_KEY_FILE if used
+#ECDSA_KEY_JSON=
+#BLS_KEY_JSON=
+
+# TODO: Operators need to add password to decrypt the above keys
+ECDSA_KEY_PASSWORD={{YOUR_PASSWORD}}
+BLS_KEY_PASSWORD={{YOUR_PASSWORD}}
+```
+
+
+> When you are done, your file should look like this picture.
+
+![resim](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/918c7b2b-033c-4a5a-9620-6af2ebf03a68)
+
+> When you're done with env
+
+```
+docker compose up -d
+```
+
+```
+docker ps
+```
+
+> Copy the container id with this code
+
+```
+docker logs -f {id} 
+```
+
+> Delete the part with fancy brackets and paste the id you copied.
+
+
+> Then it should look like the picture. 
+
+![resim](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/b2ace762-4a95-4cef-a95d-795ed015c5db)
+
+> But it may take a while for these logs to start flowing, right now the network is very slow.
+> If it says Sucesfully registered as in the picture, leave it alone and don't worry too much. 
+> If you do not see ✅ after 30 minutes, there may be a problem.
+> Come to the Discord and let's solve the problem and we will also add it to the guide, it will be good for other node operators.
+
+> Update Guide by @dwtexe 
+> I wish you all the best.
