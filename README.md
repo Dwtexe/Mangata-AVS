@@ -498,12 +498,14 @@ docker logs -f {id}
 # Hatalar
 
 > 24 saat sonra tekrardan buradayım.
+
 > Evet şimdi çok fazla karşımıza çıkan herkesin sorduğu ve sormaktan sıkılmadığı hataları açıklayalım ve çözümleri varsa çözüme kavuşturalım.
 
 
 ### 1 - RPC Hataları
 
 > Aşağıdaki hatalara RPC errors denir. Sizle alakalı değiller biryerlerinizi yırtmak pahasına çözüm arasanız da bulamayacaksınız bu yüzden sormayı bırakın.
+
 > Mangata'nın çözmesi gereken bir sorun bu onlardan haber bekleyeceğiz başka yapılabilecek **hiçbir şey yok**
 
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/8fdbac8d-4b6c-43a6-aceb-07e47b30e23f)
@@ -513,10 +515,14 @@ docker logs -f {id}
 ### 2 - .env Hataları
 
 > Gelelim ikinci en çok karşılaşılan hatalar kısmına.
+
 > Bu hatalar sizden kaynaklı aması maması yok! .env dosyanızda hata var.
-> Yok olmaz öyle şey benim .env dosyasını benden iyi mi tanıyacaksınız diyebilirsiniz. Ama sizi üzecek bir haberim var... Maalesef sizden iyi tanıyorum.
-> Üst taraflarda attığım .env dosyasının boş hali ile karşılaştırın ve sadece değiştirin dediğim kısımları düzgün şekilde yaptığınızdan emin olana kadar tekrar tekrar kontrol edin.
-> Bazı arkadaşlar şifrelerini unuttuğu için her kısım doğru olsa da hata alıp kendilerini parçalıyorlar. Şifrenizden emin olun lütfen.
+
+>Yok olmaz öyle şey benim .env dosyasını benden iyi mi tanıyacaksınız diyebilirsiniz. Ama sizi üzecek bir haberim var... Maalesef sizden iyi tanıyorum.
+
+>Üst taraflarda attığım .env dosyasının boş hali ile karşılaştırın ve sadece değiştirin dediğim kısımları düzgün şekilde yaptığınızdan emin olana kadar tekrar tekrar kontrol edin.
+
+>Bazı arkadaşlar şifrelerini unuttuğu için her kısım doğru olsa da hata alıp kendilerini parçalıyorlar. Şifrenizden emin olun lütfen.
 
 
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/fc7d7b20-4894-4208-a403-d0673a7063a7)
@@ -525,8 +531,11 @@ docker logs -f {id}
 ### 3 - Log düşmemesi
 
 > Az bekleyin düşer ama düşmeyedebilir şu sıra malum mangata ekibinin düzeltmesi gereken bir rpc sıkıntısı var.
+
 > Node u düzenli olarak sorunsuz çalışan birinin olduğunu sanmıyorum.
+
 > Ara ara log düşüyor sonra hata alıyoruz sonra tekrar canlanır gibi oluyor vs yani çok kafaya takmayın ve Mangata ekibinden haber bekleyin.
+
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
 
 > Son olarak da lütfen çözümünü bulduğunuz ya da çözemeseniz bile neden kaynaklandığını anladığınız hatalar var ise bana ulaşın.
