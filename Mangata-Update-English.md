@@ -152,12 +152,14 @@ docker logs -f {id}
 # Errors
 
 > 24 hours later, I'm back here.
+
 > Yes, now let's explain the mistakes that everyone asks and does not get tired of asking, and if there are solutions, let's solve them.
 
 
 ### 1 - RPC Errors
 
 > The following errors are called RPC errors. They are not related to you and you will not find a solution even if you try to find one, so stop asking.
+
 > This is a problem that Mangata has to solve, we will wait to hear from them, there is **nothing** can we do.
 
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/8fdbac8d-4b6c-43a6-aceb-07e47b30e23f)
@@ -167,10 +169,13 @@ docker logs -f {id}
 ### 2 - .env Errors
 
 > Let's talk about the second most common errors.
+
 > There is no other possibility that these errors are caused by you!
+
 > This error means that there is an error in your .env file.
-> 
+
 > Compare the empty and the final version of the .env file I posted above, and check and recheck until you are sure that you have only changed the parts I said to change properly.
+
 > Some friends forget their passwords and even if every part is correct, they get errors and tear themselves apart. Please be sure of your password.
 
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/fc7d7b20-4894-4208-a403-d0673a7063a7)
@@ -179,7 +184,9 @@ docker logs -f {id}
 ### 3 - No log progress
 
 > Wait a little, the logs will appear, but they may not appear, at the moment there is an rpc problem that the mangata team needs to fix.
+
 > I don't think there is anyone who runs Node smoothly and error-free.
+
 > Occasionally logs appear, then we get an error, then it seems to be fixed again, etc. So don't worry too much and wait for news from the Mangata team.
 
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
