@@ -1,6 +1,7 @@
 <h1 align="center"> Mangata AVS
 
-> 01.03.2024 Update
+# 01.03.2024 Update
+# [CLICK HERE](#errors) for the meaning/solutions of the errors you encounter after updating.
 
 # Update Steps
 
@@ -10,6 +11,7 @@
 
 > [CLICK HERE](https://goerli.eigenlayer.xyz/) It should be higher or equal to 1ETH as shown in the picture below.
 ![picture](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/62f8e068-a665-489c-9c4f-22ed776604c7)
+
 
 ```
 cd avs-operator-setup
