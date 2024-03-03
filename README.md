@@ -122,19 +122,10 @@ docker compose up -d
 ```
 
 ```
-docker ps
+docker logs -f avs-finalizer-node
 ```
 
-> Bu kod ile container id kopyalayın
-
-```
-docker logs -f {id} 
-```
-
->Süslü parantezli kısmı silip kopyaladığınız id yi yapıştırın.
-
-
->Ardından resimdeki gibi gözükmesi lazım. 
+>Loglara girelim ve ardından resimdeki gibi gözükmesi lazım. 
 
 ![resim](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/b2ace762-4a95-4cef-a95d-795ed015c5db)
 
