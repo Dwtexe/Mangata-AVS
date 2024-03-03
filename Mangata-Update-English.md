@@ -123,17 +123,8 @@ docker compose up -d
 ```
 
 ```
-docker ps
+docker logs -f avs-finalizer-node
 ```
-
-> Copy the container id with this code
-
-```
-docker logs -f {id} 
-```
-
-> Delete the part with fancy brackets and paste the id you copied.
-
 
 > Then it should look like the picture. 
 
