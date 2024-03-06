@@ -180,6 +180,7 @@ docker logs -f avs-finalizer-node
 
 > The error below indicates that you made a mistake when typing the file paths inside the .env file.
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/fc7d7b20-4894-4208-a403-d0673a7063a7)
+
 > The error at the bottom tells you that your password is incorrect.
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/984c1f42-1cc8-41dd-b018-383d11d22922)
 
