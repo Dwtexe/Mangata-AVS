@@ -124,6 +124,13 @@ docker compose up -d
 ```
 docker logs -f avs-finalizer-node
 ```
+## Duyuru
+## Şuanda Node unuz düzgün çalışmayacaktır. Mangatanın RPC sunucusu (https://avs-aggregator-testnet.mangata.online/) düzgün çalışmamaktadır. 
+## Bu nedenle aşağıdaki [TIKLA](#Hatalar) kısmındaki RPC Hatalarını görmeniz doğaldır.
+## Yapabileceğiniz hiçbir şey yok ekipten haber bekliyoruz.
+## ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
+## Node unuz yukarıdaki resimdeki gibi ise sorun yok demektir birazdan rpc hataları ekranda gözükür dert etmeyin sorunsuz kurulumu tamamlamışsınız.
+## Duyuru bitti.
 
 >Loglara girelim ve ardından resimdeki gibi gözükmesi lazım. 
 
@@ -155,6 +162,7 @@ docker logs -f avs-finalizer-node
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/8fdbac8d-4b6c-43a6-aceb-07e47b30e23f)
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/6da44650-3590-49ec-8d02-fa64c8c67b6f)
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/d81e1339-9f99-4356-a9c3-5bd53c46ae58)
+![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/c45ee3e7-1c75-4338-9418-a40614685526)
 
 ### 2 - .env Hataları
 
