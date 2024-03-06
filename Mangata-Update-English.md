@@ -126,14 +126,6 @@ docker compose up -d
 docker logs -f avs-finalizer-node
 ```
 
-## Announcement
-## At the moment your node will not work properly. Mangata's RPC server (https://avs-aggregator-testnet.mangata.online/) is not working properly. 
-## Therefore, it is natural to see RPC Errors in the [CLICK](#Errors) section below.
-## There is nothing you can do, we are waiting for an announcement from the team.
-## ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
-## If your node is like the picture above, it means that there is no problem, rpc errors will appear on the screen soon, do not worry, you have completed the installation without any problems.
-## Announcement over.
-
 > Then it should look like the picture. 
 
 ![resim](https://github.com/CoinHuntersTR/Mangata-AVS/assets/63106683/b2ace762-4a95-4cef-a95d-795ed015c5db)
@@ -146,6 +138,13 @@ docker logs -f avs-finalizer-node
 > Update Guide by @dwtexe 
 > I wish you all the best.
 
+## Announcement
+## At the moment your node will not work properly. Mangata's RPC server (https://avs-aggregator-testnet.mangata.online/) is not working properly. 
+## Therefore, it is natural to see RPC Errors in the [CLICK](#Errors) section below.
+## There is nothing you can do, we are waiting for an announcement from the team.
+## ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
+## If your node is like the picture above, it means that there is no problem, rpc errors will appear on the screen soon, do not worry, you have completed the installation without any problems.
+## Announcement over.
 
 
 # Errors
