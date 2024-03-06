@@ -144,7 +144,13 @@ docker logs -f avs-finalizer-node
 > Güncelleme Rehberini Yazan : @dwtexe 
 > Esenlikler Dilerim.
 
-
+## Duyuru
+## Şuanda Node unuz düzgün çalışmayacaktır. Mangatanın RPC sunucusu (https://avs-aggregator-testnet.mangata.online/) düzgün çalışmamaktadır. 
+## Bu nedenle aşağıdaki [TIKLA](#Hatalar) kısmındaki RPC Hatalarını görmeniz doğaldır.
+## Yapabileceğiniz hiçbir şey yok ekipten haber bekliyoruz.
+## ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
+## Node unuz yukarıdaki resimdeki gibi ise sorun yok demektir birazdan rpc hataları ekranda gözükür dert etmeyin sorunsuz kurulumu tamamlamışsınız.
+## Duyuru bitti.
 
 # Hatalar
 
