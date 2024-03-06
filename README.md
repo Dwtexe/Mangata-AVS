@@ -182,8 +182,10 @@ docker logs -f avs-finalizer-node
 
 >Bazı arkadaşlar şifrelerini unuttuğu için her kısım doğru olsa da hata alıp kendilerini parçalıyorlar. Şifrenizden emin olun lütfen.
 
-
+> Alttaki hata .env dosyasının içindeki dosya yollarını yazarken hata yaptığınızı gösterir.
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/fc7d7b20-4894-4208-a403-d0673a7063a7)
+
+> Alttaki hata şifrenizin yanlış olduğunu söyler.
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/984c1f42-1cc8-41dd-b018-383d11d22922)
 
 ### 3 - Log düşmemesi
