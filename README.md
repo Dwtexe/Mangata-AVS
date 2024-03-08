@@ -198,5 +198,16 @@ docker logs -f avs-finalizer-node
 
 ![resim](https://github.com/Dwtexe/Mangata-AVS/assets/63106683/0342eaa6-1f64-475e-9a68-94620c3d8078)
 
+## 1: key.json yedeklerinizin tekrar yüklenmemiş olması
+Is a directory (os error 21)
+![image](https://github.com/Madmin27/Testnet-TR/assets/94014225/374caaed-6302-4904-a241-bdd978c8f38c)
+
+Çözüm: 
+.env dosyanızdaki 
+ECDSA_KEY_FILE_HOST=/root/.eigenlayer/operator_keys/user.ecdsa.key.json
+BLS_KEY_FILE_HOST=/root/.eigenlayer/operator_keys/user.bls.key.json
+yolun ve klasördeki dosya isimlerinin aynı olduğuna dikkat edin
+
+
 > Son olarak da lütfen çözümünü bulduğunuz ya da çözemeseniz bile neden kaynaklandığını anladığınız hatalar var ise bana ulaşın.
 > Telegram/Discord : @dwtexe
